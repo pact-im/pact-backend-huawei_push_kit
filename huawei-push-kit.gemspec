@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.license     = "MIT"
   s.homepage    = "https://github.com/mrabets/huawei-push-kit"
 
-  s.add_dependency "faraday", "~> 1.0"
+  s.add_dependency "faraday", "~> 2.0"
   s.add_dependency "json"
 
   s.add_development_dependency "bundler", "~> 2.0"

@@ -1,8 +1,8 @@
 PATH
   remote: .
   specs:
-    huawei-push-kit (1.0.3)
-      faraday (~> 1.0)
+    huawei-push-kit (1.0.4)
+      faraday (~> 2.0)
       json
 
 GEM
@@ -16,33 +16,18 @@ GEM
       bigdecimal
       rexml
     diff-lcs (1.5.1)
-    faraday (1.10.3)
-      faraday-em_http (~> 1.0)
-      faraday-em_synchrony (~> 1.0)
-      faraday-excon (~> 1.1)
-      faraday-httpclient (~> 1.0)
-      faraday-multipart (~> 1.0)
-      faraday-net_http (~> 1.0)
-      faraday-net_http_persistent (~> 1.0)
-      faraday-patron (~> 1.0)
-      faraday-rack (~> 1.0)
-      faraday-retry (~> 1.0)
-      ruby2_keywords (>= 0.0.4)
-    faraday-em_http (1.0.0)
-    faraday-em_synchrony (1.0.0)
-    faraday-excon (1.1.0)
-    faraday-httpclient (1.0.1)
-    faraday-multipart (1.0.4)
-      multipart-post (~> 2)
-    faraday-net_http (1.0.1)
-    faraday-net_http_persistent (1.2.0)
-    faraday-patron (1.0.0)
-    faraday-rack (1.0.0)
-    faraday-retry (1.0.3)
+    faraday (2.14.4)
+      faraday-net_http (>= 2.0, < 3.5)
+      json
+      logger
+    faraday-net_http (3.4.4)
+      net-http (~> 0.5)
     hashdiff (1.1.0)
     json (2.7.2)
+    logger (1.7.0)
     method_source (1.1.0)
-    multipart-post (2.4.1)
+    net-http (0.9.1)
+      uri (>= 0.11.1)
     pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -62,7 +47,7 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.13.0)
     rspec-support (3.13.1)
-    ruby2_keywords (0.0.5)
+    uri (1.0.3)
     webmock (3.23.0)
       addressable (>= 2.8.0)
       crack (>= 0.3.2)
@@ -80,8 +65,5 @@ DEPENDENCIES
   rspec
   webmock
 
-RUBY VERSION
-   ruby 3.3.0p0
-
 BUNDLED WITH
-   2.5.3
+   2.6.6
