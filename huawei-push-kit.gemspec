@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "huawei-push-kit"
-  s.version     = "1.0.3"
+  s.version     = "2.0.0"
   s.summary     = "Huawei Push Kit Client for Ruby"
   s.description = "Huawei Push Kit Client for Ruby"
   s.authors     = ["Karim Marabet"]
